@@ -1,12 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FAPE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="build/css/app.css">
 </head>
+
 <body>
-  
+  <header class="header">
+    <div class="header__barra contenedor">
+      <div class="header__logo">
+        <img src="build/img/FAPE_LOGO_blanco.png" alt="lofo fape">
+      </div>
+
+      <nav class="navegacion">
+        <a class="navegacion__link active" href="index.html">Inicio</a>
+        <a class="navegacion__link" href="nosotros.html">Nosotros</a>
+        <a class="navegacion__link" href="servicios.html">Servicios</a>
+        <a class="navegacion__link" href="clientes.html">Clientes</a>
+        <a class="navegacion__link" href="contacto.html">Contacto</a>
+      </nav>
+    </div>
+
+    <div class="contenedor">
+      <div class="header__contenido ">
+        <h1 class="header__heading">Tu proyecto <span>Nuestro compromiso</span></h1>
+        <p class="header__texto">Altamente calificados, brindando servicios eficaces y de alta calidad las 24 horas los
+          7 días de la semana.</p>
+
+        <img src="build/img/portada.png" alt="foto portada" class="header__imagen">
+      </div>
+    </div>
+  </header>
+
+  <main class="servicios contenedor">
+    <h2 class="servicios__heading">Nuestros <span>Servicios</span></h2>
+
+    <div class="servicios__grid">
+      <div class="servicio">
+        <div class="servicio__imagen">
+          <h3 class="servicio__nombre">Pintura en general</h3>
+        </div>
+        <div class="servicio__contenido">
+          <p class="servicio__texto">llevamos a cabo servicios de: empastado, sellado, lijado y pintado, utilizamos
+            productos de marcas reconocidas y garantizados, desde la base. Acabado final «A1»
+          </p>
+          <a href="#" class="servicio__enlace">Ver Detalles</a>
+        </div>
+      </div><!--.servicio-->
+
+      <div class="servicio">
+        <div class="servicio__imagen">
+          <h3 class="servicio__nombre">Electricidad Industrial</h3>
+        </div>
+        <div class="servicio__contenido">
+          <p class="servicio__texto">Diseño, fabricación, montaje y mantenimiento de tableros eléctricos tanto para
+            industrias como edificios. Fabricación a medida según sus necesidades.</p>
+          <a href="#" class="servicio__enlace">Ver Detalles</a>
+        </div>
+      </div><!--.servicio-->
+
+      <div class="servicio">
+        <div class="servicio__imagen">
+          <h3 class="servicio__nombre">Retail – Edificaciones</h3>
+        </div>
+        <div class="servicio__contenido">
+          <p class="servicio__texto">Ejecutamos Proyectos de Ingeniería bajo un enfoque de Gestión de Proyectos basados
+            en los principios de la filosofía Lean.</p>
+          <a href="#" class="servicio__enlace">Ver Detalles</a>
+        </div>
+      </div><!--.servicio-->
+
+      <div class="servicio">
+        <div class="servicio__imagen">
+          <h3 class="servicio__nombre">Obras civiles</h3>
+        </div>
+        <div class="servicio__contenido">
+          <p class="servicio__texto">Ejecución de edificios multifamiliares, con un sistema moderno en sus
+            instalaciones, en secuencia de actividades con Estructura de desglose de trabajo (EDT), acabados en general
+            de alta calidad y durabilidad.</p>
+          <a href="#" class="servicio__enlace">Ver Detalles</a>
+        </div>
+      </div><!--.servicio-->
+
+      <div class="servicio">
+        <div class="servicio__imagen">
+          <h3 class="servicio__nombre">Drywall y melamine</h3>
+        </div>
+        <div class="servicio__contenido">
+          <p class="servicio__texto">Fabricamos muebles de melamina en general, empleamos este material para todo tipo
+            muebles de oficina, dormitorios , cocinas y baños. También fabricamos mobiliarios de melamina centros
+            comerciales.</p>
+          <a href="#" class="servicio__enlace">Ver Detalles</a>
+        </div>
+      </div><!--.servicio-->
+
+      <div class="servicio">
+        <div class="servicio__imagen">
+          <h3 class="servicio__nombre">Estructuras metálicas</h3>
+        </div>
+        <div class="servicio__contenido">
+          <p class="servicio__texto">Fabricación y montaje de estructuras metálicas como pórticos, racks, coberturas,
+            reforzamiento, accesos, rutas de evacuación, tijerales, barandas, escaleras rejas, cercos de seguridad,
+            puertas, etc. para diversos sectores.</p>
+          <a href="#" class="servicio__enlace">Ver Detalles</a>
+        </div>
+      </div><!--.servicio-->
+
+      <div class="servicio">
+        <div class="servicio__imagen">
+          <h3 class="servicio__nombre">Sistemas sanitarios</h3>
+        </div>
+        <div class="servicio__contenido">
+          <p class="servicio__texto">Mantenimiento y limpieza en redes de desagüe, agua, griferías en general, sistemas
+            de drenaje, canaletas, etc.</p>
+          <a href="#" class="servicio__enlace">Ver Detalles</a>
+        </div>
+      </div><!--.servicio-->
+
+      <div class="servicio">
+        <div class="servicio__imagen">
+          <h3 class="servicio__nombre">ACI / DACI / HVAC</h3>
+        </div>
+        <div class="servicio__contenido">
+          <p class="servicio__texto">Instalación de dispositivos iniciadores de alarma (Pulsadores Manuales De Disparo,
+            Detectores De Humo, Detectores De Calor, Detectores De Llama, Detectores De Gas)</p>
+          <a href="#" class="servicio__enlace">Ver Detalles</a>
+        </div>
+      </div><!--.servicio-->
+    </div>
+  </main>
+
+  <section class="calidad contenedor">
+    <h2 class="calidad__heading">Politicas de <span>Calidad</span></h2>
+    <img class="calidad__imagen" src="build/img/FAPE_LOGO_PNG.png" alt="">
+    <p class="calidad__titulo">Brindamos a nuestros clientes servicios de ingeniería y construcción más allá de nuestros
+      compromisos contractuales y satisfacer sus expectativas en cuanto a calidad, costo, plazo, seguridad y medio
+      ambiente.Para garantizar la Calidad a nuestros clientes definimos la siguiente Política y tiene como principio:
+    </p>
+    <div class="calidad__grid">
+      <div class="principio">
+        <i class="bi bi-hand-thumbs-up-fill " style="font-size: 4rem; color: #183763;"></i>
+        <p>Comercializar productos y servicios que satisfagan permanente los requerimientos de nuestros clientes por
+          sobre sus expectativas.</p>
+      </div>
+
+      <div class="principio">
+        <i class="bi bi-person-fill-check" style="font-size: 4rem; color: #183763;"></i>
+        <p>Otorgar a sus trabajadores la capacitación y recursos necesarios para proveer de productos de calidad a los
+          clientes.</p>
+      </div>
+
+      <div class="principio">
+        <i class="bi bi-people-fill" style="font-size: 4rem; color: #183763;"></i>
+        <p>Promover un trabajo en equipo que tome énfasis en aumentar la competitividad a través de las mejoras del
+          Sistema de Gestión de la Calidad y la productividad.</p>
+      </div>
+
+      <div class="principio">
+        <i class="bi bi-card-checklist" style="font-size: 4rem; color: #183763;"></i>
+        <p>Obtener de nuestros proveedores productos de la mejor calidad, para cumplir con nuestros compromisos.</p>
+      </div>
+
+      <div class="principio">
+        <i class="bi bi-tools" style="font-size: 4rem; color: #183763;"></i>
+        <p>Empleamos las mejores prácticas en nuestros procesos operacionales y de gestión de manera de aumentar la
+          confiabilidad de los servicios ofrecidos.</p>
+      </div>
+
+      <div class="principio">
+        <i class="bi bi-check-all" style="font-size: 5rem; color: #183763;"></i>
+        <p>Integramos equipos de profesionales comprometidos con cumplir o exceder las expectativas contractuales.</p>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="agregado">
+    <div class="agregado__grid contenedor">
+      <div class="agregado__contenido">
+        <h3 class="agregado__heading">Hay un valor que nos diferencia
+          del resto…</h3>
+        <p class="agregado__texto">Somos comprometidos, cuando un cliente nos confía su proyecto, lo hacemos nuestro,
+          dando el 100% de compromiso con la calidad de nuestros trabajos. Nuestra meta es brindarle al cliente la mayor
+          tranquilidad, ofreciendo servicio personalizado, riguroso y a precios convenientes que no afectan la calidad
+          del servicio.
+        </p>
+        <a href="" class="agregado__enlace">Contactar</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__grid contenedor">
+      <div class="foote__navegacion">
+        <h3 class="footer__titulo">NAVEGACIÓN</h3>
+        <nav class="footer__navegacion">
+          <a class="footer__navegacion__link" href="index.html">Inicio</a>
+          <a class="footer__navegacion__link" href="nosotros.html">Nosotros</a>
+          <a class="footer__navegacion__link" href="servicios.html">Servicios</a>
+          <a class="footer__navegacion__link" href="clientes.html">Clientes</a>
+          <a class="footer__navegacion__link" href="contacto.html">Contacto</a>
+        </nav>
+      </div>
+      <div class="footer__nosotros">
+        <h3 class="footer__titulo">NOSOTROS</h3>
+        <p class="footer__texto">Somos comprometidos, cuando un cliente nos confía su proyecto, lo hacemos nuestro, dando el 100% de compromiso con la calidad de nuestros trabajos</p>
+      </div>
+      <div class="footer__imagen">
+        <img src="build/img/FAPE_LOGO_blanco.png" alt="fape logo">
+      </div>
+    </div>
+  </footer>
+
 </body>
+
 </html>
